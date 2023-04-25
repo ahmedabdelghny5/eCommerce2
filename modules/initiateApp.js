@@ -10,7 +10,7 @@ import productRouter from './product/product.routes.js'
 import cartRouter from './cart/cart.routes.js'
 import orderRouter from './order/order.routes.js'
 import reviewRouter from './review/review.routes.js'
-import { globalErrorHandler } from '../utils/globalError.js'
+import { globalErrorHandler,appError } from '../utils/globalError.js'
 import morgan from 'morgan'
 import chalk from 'chalk';
 import cors from 'cors'
